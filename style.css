@@ -81,3 +81,27 @@ p{
     display: none;
     
 }
+@media screen and (max-width:767px){
+    .card{
+        width: 360px;
+        height: fit-content;
+        padding: 20px 10px;
+    }
+    .div2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #email{
+        width: 320px;
+    }
+    .btn{
+        padding: 12px 50px;
+    }
+    .div3{
+        padding: 0;
+    }
+    .div1{
+        padding: 35px 5px 0px 5px;
+    }
+}
